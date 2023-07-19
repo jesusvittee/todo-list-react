@@ -11,21 +11,40 @@ import {TodoHeader} from './TodoHeader';
 const defaultTodos = [
   { text: 'Cortar una cebolla', completed: true },
   { text: 'Tomar el Curso de Intro a React.js', completed: false },
-  { text: 'Llorar con la Llorona', completed: true },
-  { text: 'Aprender ingles', completed: false },
+  { text: 'Llorar con la Llorona', completed: false },
+  { text: 'Aprender frances', completed: false },
+  { text: 'Cortar una cebolla y chiles', completed: true },
+  { text: 'Tomar el Curso de Intro a React.js y no parar de aprender', completed: false },
+  { text: 'Llorar con la Llorona mientras lavo la ropa en el rio', completed: false },
+  { text: 'Aprender ingles mientras duermo', completed: false },
 ];
 
 function App() {
+  const [todos, setTodos]=React.useState(defaultTodos);
+  const [todoFind, setTodoFind] = React.useState('');
+
+  console.log(todoFind)
+
+  const completedTodos = todos.filter(todo => todo.completed).length;
+  const totalTodos = todos.length;
+
+  const searchesTodos = todos.filter((todo)=>{
+    const todoText = todo.text.toLowerCase();
+    const searchText = todoFind.toLowerCase()
+
+    return todoText.includes(searchText)
+  });
+
   return (
     <>
     <TodoHeader>
     <Burbuja/>
-      <TodoCounter completed={16} total={25} />
+      <TodoCounter completed={completedTodos} total={totalTodos} />
     </TodoHeader>
-      <TodoSearch />
+      <TodoSearch todoFind={todoFind} setTodoFind={setTodoFind} />
 
       <TodoList>
-        {defaultTodos.map(todo => (
+        {searchesTodos.map(todo => (
           <TodoItem
             key={todo.text}
             text={todo.text}
@@ -33,11 +52,11 @@ function App() {
           />
         ))}
       </TodoList>
-      
+
       <CreateTodoButton />
     </>
   );
-}
+ }
 
 
 export default App;
