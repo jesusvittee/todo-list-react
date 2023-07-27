@@ -1,0 +1,57 @@
+.Icon {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 19px rgba(76, 194, 252, 1);
+    /* background-color: #CCC; */
+  }
+  
+  .Icon-container-check {
+    position: absolute;
+    left: 12px;
+  }
+  .Icon-container-check--active {
+    color: #4cc2fc;
+  }
+  
+  .Icon-container-delete {
+    position: absolute;
+    top: -24px;
+    right: 0;
+  }
+  .Icon-svg{
+    width:24px;
+    height: 24px;
+  }
+  .Icon-svg__loading{
+    width:100px;
+    height: 100px;
+    animation-name: girarb;
+    animation-duration:.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+@keyframes girarb{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+
+    }
+}
+  .Icon-container-check:hover .Icon-svg {
+    fill: green;
+  }
+  .Icon-container-delete:hover .Icon-svg {
+    fill: red;
+  }
+  .Icon-container-loading .Icon-svg {
+    fill: blue;
+  }
