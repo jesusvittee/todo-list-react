@@ -5,7 +5,8 @@ const TodoContext = React.createContext()
 
 function TodoProvider({children}){
 
-    const {item:todos, 
+    const {
+        item:todos, 
         saveItem:saveTodos,
          loading,
           error
@@ -14,6 +15,7 @@ function TodoProvider({children}){
     const [todoFind, setTodoFind] = React.
     useState('');
 
+    const [openModal, setOpenModal ] = React.useState(false)
 
     const completedTodos = todos.filter(
         todo => todo.completed
@@ -26,6 +28,14 @@ function TodoProvider({children}){
       return todoText.includes(searchText)
     });
     
+    const addTodo = (text)=>{
+        const newTodos = [...todos];
+        newTodos.push({
+            text,
+            completed:false,
+        })
+        saveTodos(newTodos);
+    }
     const completeTodo = (text) => {
       const newTodos = [...todos];
       const todoIndex = newTodos.findIndex(
@@ -53,8 +63,11 @@ function TodoProvider({children}){
             todoFind,
             setTodoFind,
             searchesTodos,
+            addTodo,
             completeTodo,
-            deleteTodo 
+            deleteTodo,
+            openModal,
+            setOpenModal,
         }}>
             {children}
         </TodoContext.Provider>
