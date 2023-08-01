@@ -1,8 +1,9 @@
 import React from 'react'
+import './TodosCreate.css'
 
 function TodosCreate() {
   return (
-    <div>crear un Nuevo Todos</div>
+    <div className='new-todo'>Crear un Nuevo TODO</div>
   )
 }
 

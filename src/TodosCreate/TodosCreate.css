@@ -1,0 +1,10 @@
+.new-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding: 150px 0 150px 0;
+    text-align: center;
+}
