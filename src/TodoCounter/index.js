@@ -7,7 +7,7 @@ function TodoCounter() {
     completedTodos,
     totalTodos} = React.useContext(TodoContext)
 
-  const cheers = 'Felicidades completaste los TODOs eres Exelente!!!';
+  const cheers = 'Felicidades completaste los TODO Exelente!!!';
   const ranking = `Has completado ${completedTodos} de ${totalTodos} TODOs`;
   const dataTodo = () => {
   if(completedTodos === 0 && totalTodos === 0){
