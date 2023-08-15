@@ -17,8 +17,7 @@ Un proyecto increible creado a partir de el curso de [React.js](https://platzi.c
 ###### Como recordatorio.
 > El diseño de esta aplicacion web fue **diseñada por Platzi** para facilitar el aprendizaje de React.js.
 
-###Presentación del proyecto.
-Mobile First
+###Presentación del proyecto (Mobile First).
 
 
 
@@ -31,8 +30,8 @@ Mobile First
 
 ![todo list cell](https://github.com/jesusvittee/todo-list-react/assets/127768350/da4e2ebb-a8ae-4e95-94c5-fa69e0860227)
 ![todo list crear](https://github.com/jesusvittee/todo-list-react/assets/127768350/abe1ee27-61c1-4725-bda1-d5dec8470378)
-![todo list desktop crear](https://github.com/jesusvittee/todo-list-react/assets/127768350/17bc2a4b-79ae-4da8-ac04-fda51286d3a4)
 ![todo list desktop](https://github.com/jesusvittee/todo-list-react/assets/127768350/0b10a019-4d40-419c-ae41-ca9e16eb62ab)
+![todo list desktop crear](https://github.com/jesusvittee/todo-list-react/assets/127768350/17bc2a4b-79ae-4da8-ac04-fda51286d3a4)
 
 
 
