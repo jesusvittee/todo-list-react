@@ -3,6 +3,9 @@ Todo List en una aplicacíon web que permite al usuario crear, buscar, completar
 
 Un proyecto increible creado a partir de el curso de [React.js](https://platzi.com/cursos/react/) en Platzi.
 
+![todo list cell](https://digital55.com/wp-content/uploads/2022/01/%C2%BFQue%CC%81-cualidades-debe-tener-un-desarrollador-especialista-en-React.png)
+
+
 #### En Todo List aplique lo aprendido en el curso de React.js.
 -  Componentes en React.js
 -  Props y Atributos.
