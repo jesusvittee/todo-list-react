@@ -18,9 +18,12 @@ Un proyecto increible creado a partir de el curso de [React.js](https://platzi.c
 > El diseño de esta aplicacion web fue **diseñada por Platzi** para facilitar el aprendizaje de React.js.
 
 ###Presentación del proyecto 
-Mobile First
-![todo list cell](https://github.com/jesusvittee/todo-list-react/assets/127768350/e64a6af9-2ada-4607-a96e-3603a96320af)
-![todo list crear](https://github.com/jesusvittee/todo-list-react/assets/127768350/23122a20-143b-448b-9760-60a0e51f5c28)
-Desktop:
-![todo list desktop](https://github.com/jesusvittee/todo-list-react/assets/127768350/9de9f778-b6ee-44e1-b8f2-7d4de73a4822)
-![todo list desktop crear](https://github.com/jesusvittee/todo-list-react/assets/127768350/4dd84b4d-8feb-45d4-ab31-a5c5359f2f19)
+Mobile First![todo list cell](https://github.com/jesusvittee/todo-list-react/assets/127768350/da4e2ebb-a8ae-4e95-94c5-fa69e0860227)
+![todo list crear](https://github.com/jesusvittee/todo-list-react/assets/127768350/abe1ee27-61c1-4725-bda1-d5dec8470378)
+![todo list desktop crear](https://github.com/jesusvittee/todo-list-react/assets/127768350/17bc2a4b-79ae-4da8-ac04-fda51286d3a4)
+![todo list desktop](https://github.com/jesusvittee/todo-list-react/assets/127768350/0b10a019-4d40-419c-ae41-ca9e16eb62ab)
+
+
+
+
+
