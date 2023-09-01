@@ -1,4 +1,4 @@
-# TODO LIST
+# Todo List
 [Todo List](https://jesusvittee.github.io/todo-list-react/) en una aplicacíon web que permite al usuario crear, buscar, completar e incluso borrar una lista.
 
 Un proyecto increible creado a partir de el curso de [React.js](https://platzi.com/cursos/react/) en Platzi.
