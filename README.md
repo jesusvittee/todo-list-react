@@ -38,4 +38,4 @@ Un proyecto increible creado a partir de el curso de [React.js](https://platzi.c
 
 
 
-
+#### Creditos : Jesus Nicolas Vite @jesusvittee
