@@ -14,4 +14,4 @@ Todo List es una aplicacíon web que permite al usuario crear, buscar, completar
 - Manejo de usePortal. 
 
 
-#### Creditos : Jesus Nicolas Vite @jesusvittee
+#### Creditos : Jesus Nicolas Vite @jesusvittee.
